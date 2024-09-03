@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  db:
+    build: ./docker
+    container_name: bonsai_postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    env_file:
+      - .env
+
+volumes:
+  pgdata:
