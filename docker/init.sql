@@ -1,5 +1,6 @@
--- 1. Conectar ao banco de dados
-\c your_database;
+-- 1. Criar o banco de dados
+
+CREATE DATABASE bonsite_db;
 
 -- 2. Criação da tabela de categorias
 CREATE TABLE categories (

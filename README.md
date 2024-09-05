@@ -22,6 +22,8 @@ The official database repository for Bonsite - The go to database for all your b
 
     ```bash
     docker-compose up -d
+
+    quit: docker-compose down -v
     ```
 
 3. Access the PostgreSQL database:
